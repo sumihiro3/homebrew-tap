@@ -8,7 +8,7 @@ cask "kakiire" do
   homepage "https://kakiire.tep-lab.com/"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Kakiire.app"
 
